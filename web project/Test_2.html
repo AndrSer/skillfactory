@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="static/Style_for_test.css">
+    <title>:::</title>
+</head>
+<body>
+<div class="block1-Menu">
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a>Мое веб приложение на flask</a></li>
+        <li><a href="https://vk.com/id236812925">Контакты</a></li>
+        <li><a>О разработчике</a></li>
+    </ul>
+</div>
+<div class="block2-Content">
+   <h1>Добрый день, я начинающий веб разработчик</h1>
+</div>
+   <section>
+        <form action="/answer2" autocomplete=off method="POST">
+          <fieldset class ="text">
+                <legend>Введите строку для сортировки</legend>
+                <p><label for="string">Строка <em> </em></label><input type="text" id="string" name="string"></p>
+          </fieldset>
+                <p><label>Отсортированная строка </label>{{ans}}</p>
+                <p><input name="sort" type="submit" value="Сортировать"></p>
+        </form>
+    </section>
+   <section>
+       <form action="/answer3" autocomplete="off" method="POST">
+          <fieldset class="text">
+              <legend>Введите пользователя для поиска</legend>
+              <p><label for="search">Строка <em> </em></label><input type="text" id="search" name="search"></p>
+          </fieldset>
+              <p><label>Пользователь</label>{{ans1}}</p>
+              <p><input name="search user" type="submit" value="Поиск"></p>
+       </form>
+   <p align="center">По долгу службы пришлось познакомиться с C# и VB .NET. Работая админом для автоматизации использовал PowerShell</p>
+<div class="block3-img">
+    <img src="https://miro.medium.com/max/12032/0*WFi0MgZVvesFN-jq" alt="Мой дом - моя крепость" width="100%" height="100%">
+</div>
+<form action="/answer" autocomplete=off method="POST">
+  <fieldset>
+    <legend>Контактная информация</legend>
+    <p><label for="name">Имя <em>*</em></label><input type="text" id="name" name ="name"></p>
+    <p><label for="email">E-mail</label><input type="email" id="email" name ="email"></p>
+      <label>
+          <textarea name="message-for-out" cols="40" rows="15"></textarea>
+      </label>
+  </fieldset>
+<p><input name ="message" type="submit" value="Отправить"></p>
+</form>
+<hr>
+</body>
+<footer>
+    <p>Andrey 2020</p>
+    <p>Contacts</p>
+</footer>
+</html>
