@@ -575,7 +575,7 @@ class User(Player):
             print('Ходите (Введите координату слитно):\r')
             position = input()
             if not re.fullmatch('^[A-Fa-f]\\d|q$', position):
-                print('Паттерн строки не совпадает. Введите координаты через пробел.\r')
+                print('Паттерн строки не совпадает. Введите координаты согласно условию.\r')
             elif position == 'q':
                 exit()
             else:
